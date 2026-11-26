@@ -4,21 +4,17 @@ I build independent checkers for Lean 4 proofs, so a proof doesn't have to be tr
 
 #### Checking proofs
 
-| | |
-|---|---|
-| **[Tenet](https://github.com/keithadler/tenet)** | An independent Lean 4 kernel on .NET. Re-checks Lean exports from scratch; runs on the Lean Kernel Arena. |
-| **[tenet-hs](https://github.com/keithadler/tenet-hs)** · **[tenet-jvm](https://github.com/keithadler/tenet-jvm)** | The same job in Haskell and Java, written separately. A bug has to fool three codebases, not one. |
-| **[rh-trim](https://github.com/keithadler/rh-trim)** | The claimed Lean proof of the Riemann Hypothesis, checked whole by Tenet, tenet-jvm and nanoda. All three accepted it. |
-| **[tenet-sat](https://github.com/keithadler/tenet-sat)** | A parallel LRAT checker for SAT proofs: 4 to 19x faster than lrat-trim on SAT Competition proofs. |
+- **[Tenet](https://github.com/keithadler/tenet)**: An independent Lean 4 kernel on .NET. Re-checks Lean exports from scratch; runs on the Lean Kernel Arena.
+- **[tenet-hs](https://github.com/keithadler/tenet-hs)** · **[tenet-jvm](https://github.com/keithadler/tenet-jvm)**: The same job in Haskell and Java, written separately. A bug has to fool three codebases, not one.
+- **[rh-trim](https://github.com/keithadler/rh-trim)**: The claimed Lean proof of the Riemann Hypothesis, checked whole by Tenet, tenet-jvm and nanoda. All three accepted it.
+- **[tenet-sat](https://github.com/keithadler/tenet-sat)**: A parallel LRAT checker for SAT proofs: 4 to 19x faster than lrat-trim on SAT Competition proofs.
 
 #### Working in Lean
 
-| | |
-|---|---|
-| **[Lean Studio](https://github.com/keithadler/leanstudio)** | A desktop IDE for Lean 4 on macOS, Windows and Linux. Every proof re-checked by Tenet. |
-| **[LeanViz](https://github.com/keithadler/leanviz)** | Browse Mathlib by declaration: what each one uses, what uses it, and the axioms it rests on. |
-| **[lean-to-dot-net](https://github.com/keithadler/lean-to-dot-net)** | Prove a function in Lean, call it from C#. |
-| **[lean-linter](https://github.com/keithadler/lean-linter)** | Finds what the type checker can't: names that say the opposite of the statement, wrong docstrings, dead code. |
+- **[Lean Studio](https://github.com/keithadler/leanstudio)**: A desktop IDE for Lean 4 on macOS, Windows and Linux. Every proof re-checked by Tenet.
+- **[LeanViz](https://github.com/keithadler/leanviz)**: Browse Mathlib by declaration: what each one uses, what uses it, and the axioms it rests on.
+- **[lean-to-dot-net](https://github.com/keithadler/lean-to-dot-net)**: Prove a function in Lean, call it from C#.
+- **[lean-linter](https://github.com/keithadler/lean-linter)**: Finds what the type checker can't: names that say the opposite of the statement, wrong docstrings, dead code.
 
 #### Proved in Lean
 
